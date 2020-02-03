@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header header"
+                         "inventory item"
+                         "boutoncombattre item"
+                         "footer footer";
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100px auto 100px 20px;
+}
+
+header {
+    grid-area: header;
+    background: chartreuse;
+}
+
+main {
+    grid-area: inventory;
+    background: aquamarine;
+}
+
+footer {
+    grid-area: footer;
+    background: darkmagenta;
+}
+
+
+
