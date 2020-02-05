@@ -8,15 +8,26 @@ body {
     display: grid;
     grid-template-areas: "header header"
                          "inventory item"
-                         "boutoncombattre item"
+                         "bouton_combattre item"
                          "footer footer";
     grid-template-columns: 75% 25%;
-    grid-template-rows: 100px auto 100px 20px;
+    grid-template-rows: 73px auto 100px 20px;
 }
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: header;
-    background: chartreuse;
+    background: #008000;
+}
+
+header > nav {
+    flex-grow: 1;
+}
+
+#bouton_logo {
+    padding: 10.5px;
 }
 
 main {
@@ -24,9 +35,14 @@ main {
     background: aquamarine;
 }
 
-item {
+#item {
     grid-area: item;
     background: darkgreen;
+}
+
+#bouton_combattre {
+    grid-area: bouton_combattre;
+    background: darkred;
 }
 
 footer {
