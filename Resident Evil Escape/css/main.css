@@ -10,25 +10,48 @@ body {
                          "inventory item"
                          "bouton_combattre item"
                          "footer footer";
-    grid-template-columns: 75% 25%;
-    grid-template-rows: 73px auto 100px 20px;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 70px auto 100px 20px;
+}
+nav {
+    text-align: center;
+}
+
+nav > a {
+    border: 1px solid #000000;
+    border-radius: 2em;
+    background-color: #000000;
+    box-sizing: border-box;
+    color: #FF0000;
+    display: inline-block;
+    font-size: x-large;
+    height: 52px;
+    line-height: 50px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    width: 174px;
 }
 
 header {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    grid-area: header;
     background: #008000;
+    display: flex;
+    grid-area: header;
+    justify-content: center;
 }
 
 header > nav {
     flex-grow: 1;
+    margin-left: -204px;
 }
 
 #bouton_logo {
-    padding: 10.5px;
+    margin: 15px;
+    height: 52px;
 }
+
 
 main {
     grid-area: inventory;
