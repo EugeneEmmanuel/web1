@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92f7cd0e-bd0f-4475-b364-ccb875568f4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/oeil_background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/RE_1996_eye.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eugène et Eugénie\Documents\projet-EugeneEmmanuel\Resident Evil Escape\img" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -64,6 +67,7 @@
       <workItem from="1580752999490" duration="903000" />
       <workItem from="1580755353457" duration="597000" />
       <workItem from="1580856702400" duration="644000" />
+      <workItem from="1581392038812" duration="5965000" />
     </task>
     <servers />
   </component>
@@ -75,6 +79,10 @@
       <screen x="0" y="23" width="1680" height="942" />
     </state>
     <state x="440" y="159" key="#Notifications/0.23.1680.942@0.23.1680.942" timestamp="1580742694476" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581397917942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581397917942" />
     <state x="170" y="104" key="SettingsEditor" timestamp="1580752552937">
       <screen x="0" y="23" width="1680" height="942" />
     </state>

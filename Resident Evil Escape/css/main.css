@@ -37,6 +37,7 @@ nav > a {
 header {
     align-items: center;
     background: #008000;
+    box-shadow: 0px 5px 3px #707070;
     display: flex;
     grid-area: header;
     justify-content: center;
@@ -47,6 +48,7 @@ header > nav {
     margin-left: -204px;
 }
 
+
 #bouton_logo {
     margin: 15px;
     height: 52px;
@@ -55,17 +57,21 @@ header > nav {
 
 main {
     grid-area: inventory;
-    background: aquamarine;
+}
+
+#background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 #item {
     grid-area: item;
-    background: darkgreen;
 }
 
 #bouton_combattre {
     grid-area: bouton_combattre;
-    background: darkred;
 }
 
 footer {
