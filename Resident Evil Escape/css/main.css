@@ -11,7 +11,7 @@ body {
                          "bouton_combattre item"
                          "footer footer";
     grid-template-columns: 65% 35%;
-    grid-template-rows: 70px auto 100px 20px;
+    grid-template-rows: 70px auto 100px 120px;
 }
 nav {
     text-align: center;
@@ -71,12 +71,30 @@ main {
 }
 
 #bouton_combattre {
+    border: 1px solid #008000;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    background-color: #008000;
+    color: black;
+    display: inline-block;
+    font-size: 100px;
     grid-area: bouton_combattre;
+    height: 128px;
+    margin-left: 90px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 971.5px;
 }
 
 footer {
+    color: #FFFFFF;
+    display: flex;
+    font-size: large;
     grid-area: footer;
-    background: darkmagenta;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 95px;
 }
 
 
