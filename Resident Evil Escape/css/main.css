@@ -3,6 +3,14 @@ html, body {
     width: 100%;
 }
 
+@font-face {
+    font-family: 'et_bt11bregular';
+    src: url('et_bt11b-webfont.woff2') format('woff2'),
+    url('et_bt11b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     display: grid;
@@ -10,8 +18,8 @@ body {
                          "inventory item"
                          "bouton_combattre item"
                          "footer footer";
-    grid-template-columns: 65% 35%;
-    grid-template-rows: 70px auto 100px 120px;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 70px auto 150px 30px;
 }
 nav {
     text-align: center;
@@ -21,12 +29,12 @@ nav > a {
     border: 1px solid #000000;
     border-radius: 2em;
     background-color: #000000;
-    box-sizing: border-box;
     color: #FF0000;
     display: inline-block;
-    font-size: x-large;
+    font-size: 22px;
+    font-family: "et_bt11bregular", Arial, sans-serif;
     height: 52px;
-    line-height: 50px;
+    line-height: 57px;
     margin-left: 20px;
     text-decoration: none;
     text-align: center;
@@ -67,6 +75,12 @@ main {
     z-index: -1;
 }
 
+#inventory {
+    left: 48px;
+    position: relative;
+    top: 36px;
+}
+
 #item {
     grid-area: item;
 }
@@ -74,28 +88,29 @@ main {
 #bouton_combattre a {
     border: 2px solid #008000;
     border-radius: 0.5em;
-    box-sizing: border-box;
     background-color: #008000;
     color: black;
     display: inline-block;
-    font-size: 100px;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 75px;
     grid-area: bouton_combattre;
-    height: 128px;
-    margin-left: 90px;
+    height: 76px;
+    line-height: 93px;
+    margin-left: 146px;
+    margin-top: 20px;
     text-align: center;
-    vertical-align: middle;
     text-decoration: none;
-    width: 971.5px;
+    width: 930px;
 }
 
 footer {
     color: #FFFFFF;
     display: flex;
     font-size: large;
+    font-family: "et_bt11bregular", Arial, sans-serif;
     grid-area: footer;
     justify-content: flex-end;
     margin-right: 10px;
-    margin-top: 95px;
 }
 
 
