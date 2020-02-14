@@ -3,16 +3,7 @@ html, body {
     width: 100%;
 }
 
-@font-face {
-    font-family: 'et_bt11bregular';
-    src: url('et_bt11b-webfont.woff2') format('woff2'),
-    url('et_bt11b-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
-    margin: 0;
     display: grid;
     grid-template-areas: "header header"
                          "inventory item"
@@ -20,6 +11,7 @@ body {
                          "footer footer";
     grid-template-columns: 75% 25%;
     grid-template-rows: 70px auto 150px 30px;
+    margin: 0;
 }
 nav {
     text-align: center;
@@ -58,8 +50,8 @@ header > nav {
 
 
 #bouton_logo {
-    margin: 15px;
     height: 52px;
+    margin: 15px;
     z-index: 5;
 }
 
@@ -112,6 +104,3 @@ footer {
     justify-content: flex-end;
     margin-right: 10px;
 }
-
-
-

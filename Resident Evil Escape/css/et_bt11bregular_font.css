@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'et_bt11bregular';
+    src: url('et_bt11b-webfont.woff2') format('woff2'),
+    url('et_bt11b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
