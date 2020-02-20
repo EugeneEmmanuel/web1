@@ -4,12 +4,14 @@ html, body {
 }
 
 body {
+    background-image: url("../img/oeil_background.png");
+    background-size: cover;
     display: grid;
     grid-template-areas: "header header"
                          "inventory item"
                          "bouton_combattre item"
                          "footer footer";
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 68% 32%;
     grid-template-rows: 70px auto 150px 30px;
     margin: 0;
 }
@@ -60,21 +62,15 @@ main {
     grid-area: inventory;
 }
 
-#background {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
-
 #inventory {
-    left: 48px;
+    left: 5em;
     position: relative;
-    top: 36px;
+    top: 2.5em;
 }
 
 #item {
     grid-area: item;
+    margin-top: 4em;
 }
 
 #bouton_combattre a {
@@ -88,8 +84,8 @@ main {
     grid-area: bouton_combattre;
     height: 76px;
     line-height: 93px;
-    margin-left: 146px;
-    margin-top: 20px;
+    margin-left: 2em;
+    margin-top: 0.2em;
     text-align: center;
     text-decoration: none;
     width: 930px;
