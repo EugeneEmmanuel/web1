@@ -73,7 +73,7 @@ main {
 
 #item {
     grid-area: item;
-    margin-top: 4em;
+    margin-top: 8%;
 }
 
 #bouton_combattre a {
