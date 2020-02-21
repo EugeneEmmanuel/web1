@@ -8,9 +8,9 @@ body {
     background-size: cover;
     display: grid;
     grid-template-areas: "header header"
-                         "inventory item"
-                         "bouton_combattre item"
-                         "footer footer";
+    "inventory item"
+    "bouton_combattre item"
+    "footer footer";
     grid-template-columns: 68% 32%;
     grid-template-rows: 70px auto 150px 30px;
     margin: 0;
@@ -63,9 +63,9 @@ main {
 }
 
 #inventory {
-    left: 5em;
+    left: 4%;
     position: relative;
-    top: 2.5em;
+    top: 6%;
 }
 
 #item {
@@ -80,15 +80,14 @@ main {
     color: black;
     display: inline-block;
     font-family: "et_bt11bregular", Arial, sans-serif;
-    font-size: 75px;
+    font-size: 90px;
     grid-area: bouton_combattre;
-    height: 76px;
-    line-height: 93px;
-    margin-left: 2em;
-    margin-top: 0.2em;
+    height: 70%;
+    line-height: 119px;
+    margin-left: 8%;
     text-align: center;
     text-decoration: none;
-    width: 930px;
+    width: 80%;
 }
 
 footer {
