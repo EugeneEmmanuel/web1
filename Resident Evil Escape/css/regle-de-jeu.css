@@ -1,71 +1,21 @@
-html, body {
-    height: 100%;
-    width: 100%;
-}
-
 body {
     margin: 0;
     display: grid;
     grid-template-areas: "header"
-                         "regle-du-jeu"
+                         "rules"
                          "footer";
     grid-template-columns: 100%;
     grid-template-rows: 70px auto 30px;
 }
-nav {
-    text-align: center;
-}
-
-nav > a {
-    border: 1px solid #000000;
-    border-radius: 2em;
-    background-color: #000000;
-    color: #FF0000;
-    display: inline-block;
-    font-size: 22px;
-    font-family: "et_bt11bregular", Arial, sans-serif;
-    height: 52px;
-    line-height: 57px;
-    margin-left: 20px;
-    text-decoration: none;
-    text-align: center;
-    vertical-align: middle;
-    width: 174px;
-}
 
 header {
-    align-items: center;
-    background: #008000;
-    box-shadow: 0px 5px 3px #707070;
-    display: flex;
     grid-area: header;
-    justify-content: center;
 }
 
-header > nav {
-    flex-grow: 1;
-    margin-left: -204px;
-}
-
-#bouton_logo {
-    margin: 15px;
-    height: 52px;
-    z-index: 5;
-}
-
-#background {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
+main {
+    grid-area: rules;
 }
 
 footer {
-    color: #FFFFFF;
-    display: flex;
-    font-size: large;
-    font-family: "et_bt11bregular", Arial, sans-serif;
     grid-area: footer;
-    justify-content: flex-end;
-    margin-right: 10px;
 }
