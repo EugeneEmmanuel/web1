@@ -32,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/projet-EugeneEmmanuel-master/projet-EugeneEmmanuel-master" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Less" />
   </component>
   <component name="RecentsManager">
@@ -71,6 +71,9 @@
       <workItem from="1581541433727" duration="1428000" />
       <workItem from="1581547322558" duration="744000" />
       <workItem from="1582296287495" duration="69000" />
+      <workItem from="1582296442764" duration="6000" />
+      <workItem from="1582296767894" duration="25000" />
+      <workItem from="1582297371470" duration="2252000" />
     </task>
     <servers />
   </component>
@@ -86,6 +89,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581397917942" />
+    <state x="1061" y="457" key="FileChooserDialogImpl" timestamp="1582296790764">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1061" y="457" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1582296790764" />
     <state x="170" y="104" key="SettingsEditor" timestamp="1580752552937">
       <screen x="0" y="23" width="1680" height="942" />
     </state>
