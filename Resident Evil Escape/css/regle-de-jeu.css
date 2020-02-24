@@ -14,6 +14,29 @@ header {
 
 main {
     grid-area: rules;
+
+}
+
+main > h1  {
+    color: #FFFFFF;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+main > p {
+    color: #FFFFFF;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 6%;
+}
+
+#spencer_mansion {
+    border: 10px solid #000000;
+    position: absolute;
+    margin-top: -11%;
+    margin-left: 3%;
 }
 
 footer {
