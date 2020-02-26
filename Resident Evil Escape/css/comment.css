@@ -12,7 +12,10 @@ header {
 }
 
 main {
+    color: #FFFFFF;
     grid-area: commentaires;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 30px;
 }
 
 footer {
