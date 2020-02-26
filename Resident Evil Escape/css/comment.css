@@ -13,11 +13,38 @@ header {
 
 main {
     color: #FFFFFF;
-    grid-area: commentaires;
+    display: block;
     font-family: "et_bt11bregular", Arial, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    grid-area: commentaires;
+}
+
+h1 {
+    text-align: center;
 }
 
 footer {
     grid-area: footer;
+}
+
+form {
+    margin: 8% auto;
+    width: 75%;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border: 6px solid #999;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: none;
 }
