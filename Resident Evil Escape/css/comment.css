@@ -1,11 +1,11 @@
 body {
-    margin: 0;
     display: grid;
     grid-template-areas: "header"
                          "commentaires"
                          "footer";
     grid-template-columns: 100%;
     grid-template-rows: 70px auto 30px;
+    margin: 0;
 }
 header {
     grid-area: header;
@@ -23,10 +23,6 @@ h1 {
     text-align: center;
 }
 
-footer {
-    grid-area: footer;
-}
-
 form {
     margin: 8% auto;
     width: 75%;
@@ -37,14 +33,19 @@ form div + div {
 }
 
 input, textarea {
-    font: 1em sans-serif;
-    width: 100%;
     box-sizing: border-box;
-    border: 6px solid #999;
+    border: 6px solid #999999;
+    font: 1em sans-serif;
+    margin-top: 5px;
+    width: 100%;
 }
 
 textarea {
-    vertical-align: top;
     height: 5em;
     resize: none;
+    vertical-align: top;
+}
+
+footer {
+    grid-area: footer;
 }
