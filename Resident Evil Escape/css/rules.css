@@ -20,14 +20,14 @@ main {
 main > h1  {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
-    font-size: 90px;
+    font-size: 60px;
     text-align: center;
 }
 
 main > p {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 30%;
     margin-top: 6%;
 }
@@ -37,8 +37,4 @@ main > p {
     position: absolute;
     margin-top: -11%;
     margin-left: 3%;
-}
-
-footer {
-    grid-area: footer;
 }
