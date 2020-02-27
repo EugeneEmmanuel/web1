@@ -15,7 +15,7 @@ main {
     color: #FFFFFF;
     display: block;
     font-family: "et_bt11bregular", Arial, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     grid-area: commentaires;
 }
 
@@ -23,8 +23,14 @@ h1 {
     text-align: center;
 }
 
+main > p {
+    font-size: 25px;
+    margin-top: 4%;
+    text-align: center;
+}
+
 form {
-    margin: 8% auto;
+    margin: 4% auto;
     width: 75%;
 }
 
@@ -35,7 +41,7 @@ form div + div {
 input, textarea {
     box-sizing: border-box;
     border: 6px solid #999999;
-    font: 1em sans-serif;
+    font: 60% sans-serif;
     margin-top: 5px;
     width: 100%;
 }
@@ -44,8 +50,4 @@ textarea {
     height: 5em;
     resize: none;
     vertical-align: top;
-}
-
-footer {
-    grid-area: footer;
 }
