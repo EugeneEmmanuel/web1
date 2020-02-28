@@ -108,7 +108,20 @@ footer {
     margin-right: 10px;
 }
 
-@media screen {
+@media only screen and (max-width: 375px) {
+    /*body {*/
+    /*    grid-template-areas: "header"*/
+    /*                         "main"*/
+    /*                         "bouton_combatre"*/
+    /*                         "footer";*/
+    /*    grid-template-columns: auto;*/
+    /*    grid-template-rows: auto;*/
+    /*}*/
+    #inventory {
+        display: none;
+    }
+
 
 }
+
 
