@@ -121,7 +121,8 @@ footer {
     }
 
     header {
-        background-color: #000000;
+        background-color: #008000;
+        justify-content: flex-start;
     }
 
     main {
@@ -159,7 +160,7 @@ footer {
         width: 35px;
         height: 5px;
         background-color: #333;
-        margin: 6px 0;
+        margin: 6px 25%;
         transition: 0.4s;
     }
 
