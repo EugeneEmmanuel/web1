@@ -4,15 +4,15 @@ html, body {
 }
 
 body {
-    background-image: url("../img/oeil_background.png");
+    background-image: url("../img/eye_background.png");
     background-size: cover;
     display: grid;
     grid-template-areas: "header header"
     "inventory item"
-    "bouton_combattre item"
+    "button_fight item"
     "footer footer";
     grid-template-columns: 68% 32%;
-    grid-template-rows: 70px auto 150px 30px;
+    grid-template-rows: 70px /*auto (je crois que c'est à cause du "auto" que mon bouton combattre embarque par-dessus mon inventaire)*/ 71% 150px auto;
     margin: 0;
 }
 
@@ -56,7 +56,7 @@ header > nav {
 }
 
 
-#bouton_logo {
+#logo_button {
     height: 52px;
     margin: 15px;
     z-index: 5;
@@ -77,7 +77,7 @@ main {
     margin-top: 8%;
 }
 
-#bouton_combattre a {
+#button_fight a {
     border: 5px solid #008000;
     border-radius: 0.5em;
     background-color: #008000;
@@ -94,26 +94,27 @@ main {
     width: 80%;
 }
 
-#bouton_combattre a:hover {
+#button_fight a:hover {
     border: 5px solid #000000;
 }
 
 
 footer {
+    align-items: flex-end;
     color: #FFFFFF;
     display: flex;
     font-size: large;
     font-family: "et_bt11bregular", Arial, sans-serif;
     grid-area: footer;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin: 6px;
 }
 
 @media screen and (max-width: 770px) {
     body {
         grid-template-areas: "header"
                              "inventory"
-                             "bouton_combatre"
+                             "button_fight"
                              "footer";
         grid-template-columns: auto;
         grid-template-rows: 70px 60% 150px auto;
@@ -134,7 +135,7 @@ footer {
         width: 100%;
     }
 
-    #bouton_logo {
+    #logo_button {
         display: none;
     }
 
@@ -174,7 +175,7 @@ footer {
         transform: rotate(45deg) translate(-8px, -8px);
     }
 
-    #bouton_combattre a {
+    #button_fight a {
         border-radius: 1.5em;
         font-size: 35px;
         height: 40%;
