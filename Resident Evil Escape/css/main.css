@@ -12,7 +12,7 @@ body {
     "button_fight item"
     "footer footer";
     grid-template-columns: 68% 32%;
-    grid-template-rows: 70px /*auto (je crois que c'est à cause du "auto" que mon bouton combattre embarque par-dessus mon inventaire)*/ 71% 150px auto;
+    grid-template-rows: 70px /*auto (je crois que c'est à cause du "auto" que mon bouton combattre embarque par-dessus mon inventaire)*/ 74% 100px auto;
     margin: 0;
 }
 
@@ -86,8 +86,8 @@ main {
     font-family: "et_bt11bregular", Arial, sans-serif;
     font-size: 90px;
     grid-area: bouton_combattre;
-    height: 70%;
-    line-height: 119px;
+    height: 90%;
+    line-height: 100px;
     margin-left: 8%;
     text-align: center;
     text-decoration: none;
@@ -117,7 +117,7 @@ footer {
                              "button_fight"
                              "footer";
         grid-template-columns: auto;
-        grid-template-rows: 70px 60% 150px auto;
+        grid-template-rows: 70px 74% 100px auto;
     }
 
     header {
@@ -178,9 +178,8 @@ footer {
 
     #button_fight a {
         border-radius: 1.5em;
-        font-size: 35px;
-        height: 40%;
-        line-height: 67px;
+        font-size: 59px;
+        height: 90%;
     }
 
     footer {
