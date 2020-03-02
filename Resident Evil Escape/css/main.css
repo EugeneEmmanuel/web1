@@ -6,13 +6,14 @@ html, body {
 body {
     background-image: url("../img/eye_background.png");
     background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     grid-template-areas: "header header"
     "inventory item"
     "button_fight item"
     "footer footer";
     grid-template-columns: 68% 32%;
-    grid-template-rows: 70px /*auto (je crois que c'est à cause du "auto" que mon bouton combattre embarque par-dessus mon inventaire)*/ 74% 100px auto;
+    grid-template-rows: 70px 78% 100px auto;
     margin: 0;
 }
 
@@ -67,9 +68,11 @@ main {
 }
 
 #inventory {
+    height: auto;
     left: 4%;
     position: relative;
-    top: 6%;
+    top: 4%;
+    width: 90%;
 }
 
 #item {

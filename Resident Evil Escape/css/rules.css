@@ -5,7 +5,7 @@ body {
                          "rules"
                          "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 70px auto 30px;
+    grid-template-rows: 70px 89% auto;
 }
 
 header {
@@ -34,7 +34,9 @@ main > p {
 
 #spencer_mansion {
     border: 10px solid #999999;
+    height: auto;
     position: absolute;
     margin-top: -11%;
     margin-left: 3%;
+    width: 25%;
 }
