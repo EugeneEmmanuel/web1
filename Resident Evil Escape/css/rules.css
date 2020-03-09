@@ -14,29 +14,40 @@ header {
 
 main {
     grid-area: rules;
+}
 
+.reglement {
+    display: flex;
+    align-items: center;
 }
 
 main > h1  {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
     font-size: 60px;
+    margin-bottom: 4%;
     text-align: center;
 }
 
-main > p {
+main > div > p {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
     font-size: 25px;
-    margin-left: 30%;
-    margin-top: 6%;
+    flex: 1 1;
+    margin: 1.5%;
 }
 
 #spencer_mansion {
     border: 10px solid #999999;
     height: auto;
-    position: absolute;
-    margin-top: -11%;
     margin-left: 3%;
-    width: 25%;
+    width: 600px;
+}
+
+
+
+@media screen and (max-width: 1920px) {
+    #spencer_mansion {
+        width: 500px;
+    }
 }
