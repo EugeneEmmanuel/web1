@@ -55,6 +55,7 @@ main > div > p {
 
 #left_text {
     flex: 1 1;
+    margin-left: 3%;
 }
 
 #mr_x {
