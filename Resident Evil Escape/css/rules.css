@@ -16,11 +16,6 @@ main {
     grid-area: rules;
 }
 
-.reglement {
-    display: flex;
-    align-items: center;
-}
-
 main > h1  {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
@@ -33,8 +28,13 @@ main > div > p {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
     font-size: 25px;
-    flex: 1 1;
     margin: 1.5%;
+}
+
+#rule_line1 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 2%;
 }
 
 #spencer_mansion {
@@ -44,10 +44,32 @@ main > div > p {
     width: 600px;
 }
 
+#right_text {
+    flex: 1 1;
+}
 
+#rule_line2 {
+    align-items: center;
+    display: flex;
+}
+
+#left_text {
+    flex: 1 1;
+}
+
+#mr_x {
+    border: 10px solid #999999;
+    height: auto;
+    margin-right: 3%;
+    width: 600px;
+}
 
 @media screen and (max-width: 1920px) {
     #spencer_mansion {
+        width: 500px;
+    }
+
+    #mr_x {
         width: 500px;
     }
 }
