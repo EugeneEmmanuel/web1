@@ -13,7 +13,7 @@ body {
     "button_fight item"
     "footer footer";
     grid-template-columns: 68% 32%;
-    grid-template-rows: 70px 78% 100px auto;
+    grid-template-rows: 70px auto 100px 30px;
     margin: 0;
 }
 
@@ -68,16 +68,25 @@ main {
 }
 
 #inventory {
-    height: auto;
-    left: 4%;
-    position: relative;
-    top: 4%;
-    width: 90%;
+    background-image: url(../img/inventory.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: content-box;
+    display: block;
+    height: 90%;
+    margin-left: 2%;
+    margin-top: 3%;
+    max-height: 100%;
+    width: 95%;
 }
 
 #item {
     grid-area: item;
+    height: 80%;
     margin-top: 8%;
+    overflow: scroll;
+    width: 90%;
 }
 
 #button_fight a {
@@ -120,7 +129,7 @@ footer {
                              "button_fight"
                              "footer";
         grid-template-columns: auto;
-        grid-template-rows: 70px 74% 100px auto;
+        grid-template-rows: 70px auto 100px 30px;
     }
 
     header {
@@ -136,7 +145,6 @@ footer {
         height: 85%;
         left: 0%;
         top: 10%;
-        width: 100%;
     }
 
     #logo_button {
