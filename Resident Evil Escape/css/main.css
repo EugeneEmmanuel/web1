@@ -89,6 +89,10 @@ main {
     width: 90%;
 }
 
+img {
+    margin: 3%;
+}
+
 #button_fight a {
     border: 5px solid #008000;
     border-radius: 0.5em;
