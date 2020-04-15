@@ -68,7 +68,7 @@ main {
 }
 
 #inventory {
-    background-image: url(../img/inventory.png);
+    background-image: url(../img/inventory_green.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,7 +89,7 @@ main {
     width: 90%;
 }
 
-img {
+#item > img {
     margin: 3%;
 }
 
