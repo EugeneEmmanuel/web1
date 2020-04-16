@@ -51,3 +51,18 @@ textarea {
     resize: none;
     vertical-align: top;
 }
+
+.button {
+    background-color: #017f00;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 25px;
+    margin-left: 47%;
+    padding: 15px 25px;
+}
+
+.button:hover {
+    border: 5px solid #000000;
+}
