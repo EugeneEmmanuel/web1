@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header"
+                         "rules"
+                         "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 70px 89% auto;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: rules;
+}
+
+main > h1  {
+    color: #FFFFFF;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+main > div > p {
+    color: #FFFFFF;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 25px;
+    margin: 1.5%;
+}
+
+#rule_line1 {
+    align-items: center;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+#spencer_mansion {
+    border: 10px solid #999999;
+    height: auto;
+    margin-left: 3%;
+    width: 600px;
+}
+
+#right_text {
+    flex: 1 1;
+}
+
+#rule_line2 {
+    align-items: center;
+    display: flex;
+}
+
+#left_text {
+    flex: 1 1;
+    margin-left: 3%;
+}
+
+#mr_x {
+    border: 10px solid #999999;
+    height: auto;
+    margin-right: 3%;
+    width: 600px;
+}
+
+@media screen and (max-width: 1920px) {
+    #spencer_mansion {
+        width: 500px;
+    }
+
+    #mr_x {
+        width: 500px;
+    }
+}

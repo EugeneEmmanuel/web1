@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header header"
+                         "items items"
+                         "footer footer";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 70px auto 30px;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: items;
+}
+
+footer {
+    grid-area: footer;
+}
