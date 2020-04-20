@@ -22,7 +22,7 @@ nav {
 }
 
 nav > a {
-    border: 1px solid #000000;
+    border: 2px solid #000000;
     border-radius: 2em;
     background-color: #000000;
     color: #FF0000;
@@ -39,7 +39,7 @@ nav > a {
 }
 
 nav > a:hover {
-    border: 1px solid #FF0000;
+    border: 2px solid #FF0000;
 }
 
 header {
@@ -63,8 +63,12 @@ header > nav {
     z-index: 5;
 }
 
-main {
-    grid-area: inventory;
+main > h1  {
+    color: #FFFFFF;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 60px;
+    margin-bottom: 2%;
+    text-align: center;
 }
 
 #inventory {
@@ -74,6 +78,7 @@ main {
     background-position: center center;
     box-sizing: content-box;
     display: block;
+    grid-area: inventory;
     height: 90%;
     margin-left: 2%;
     margin-top: 3%;

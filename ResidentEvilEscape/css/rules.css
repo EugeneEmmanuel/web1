@@ -16,14 +16,6 @@ main {
     grid-area: rules;
 }
 
-main > h1  {
-    color: #FFFFFF;
-    font-family: "et_bt11bregular", Arial, sans-serif;
-    font-size: 60px;
-    margin-bottom: 4%;
-    text-align: center;
-}
-
 main > div > p {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
@@ -56,6 +48,17 @@ main > div > p {
 #left_text {
     flex: 1 1;
     margin-left: 3%;
+}
+
+main > div > p > a {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+main > div > p > a:hover {
+    cursor: pointer;
+    color: #000000;
+    text-decoration: underline;
 }
 
 #mr_x {

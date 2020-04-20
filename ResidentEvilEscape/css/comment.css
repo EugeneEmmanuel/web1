@@ -30,7 +30,7 @@ main > p {
 }
 
 form {
-    margin: 4% auto;
+    margin: 3% auto;
     width: 75%;
 }
 
@@ -40,7 +40,7 @@ form div + div {
 
 input, textarea {
     box-sizing: border-box;
-    border: 6px solid #999999;
+    border: 3px solid #999999;
     font: 60% sans-serif;
     margin-top: 5px;
     width: 100%;
@@ -52,10 +52,10 @@ textarea {
     vertical-align: top;
 }
 
-.button {
+.button_submit {
+    border: 5px solid #017f00;
     background-color: #017f00;
-    border: none;
-    color: white;
+    color: #FFFFFF;
     cursor: pointer;
     font-family: "et_bt11bregular", Arial, sans-serif;
     font-size: 25px;
@@ -63,6 +63,6 @@ textarea {
     padding: 15px 25px;
 }
 
-.button:hover {
+.button_submit:hover {
     border: 5px solid #000000;
 }

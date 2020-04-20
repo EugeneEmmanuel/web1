@@ -1,10 +1,10 @@
 body {
     margin: 0;
     display: grid;
-    grid-template-areas: "header header"
-                         "items items"
-                         "footer footer";
-    grid-template-columns: 50% 50%;
+    grid-template-areas: "header"
+                         "items"
+                         "footer";
+    grid-template-columns: 100%;
     grid-template-rows: 70px auto 30px;
 }
 
@@ -14,6 +14,28 @@ header {
 
 main {
     grid-area: items;
+}
+
+#item_list {
+    display: grid;
+    grid-area: items;
+    grid-template-areas: "items items";
+    height: 80%;
+    margin: 8% auto auto auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 90%;
+}
+
+#item_list > p > img {
+    margin-right: 2%;
+    vertical-align: middle;
+}
+
+div > p {
+    color: #FFFFFF;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    font-size: 20px;
 }
 
 footer {
