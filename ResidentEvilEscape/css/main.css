@@ -80,8 +80,9 @@ main > h1  {
     display: block;
     grid-area: inventory;
     height: 90%;
-    margin-left: 2%;
-    margin-top: 3%;
+    /* margin-left: 2%; */
+    /* margin-top: 3%; */
+    margin: 3% auto;
     max-height: 100%;
     width: 95%;
 }
@@ -146,7 +147,59 @@ footer {
     margin: 6px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1873px) {
+    #item > img {
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width: 1775px) {
+
+    body {
+        grid-template-columns: 72% 28%;
+    }
+
+    #item > img {
+        margin: 0.5%;
+    }
+}
+
+@media screen and (max-width: 1748px) {
+    #item > img {
+        margin: 0.1%;
+    }
+}
+
+@media screen and (max-width: 1772px) {
+    #item > img {
+        margin: 8%;
+    }
+}
+
+@media screen and (max-width: 1722px) {
+    #item > img {
+        margin: 6%;
+    }
+}
+
+@media screen and (max-width: 1545px) {
+    #item > img {
+        margin: 4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    body {
+        grid-template-columns: 80% 20%;
+    }
+
+    #item > img {
+        margin: 4%;
+    }
+}
+
+@media screen and (max-width: 950px) {
     body {
         grid-template-areas: "header"
                              "inventory"
@@ -184,8 +237,6 @@ footer {
         display: none;
     }
 
-
-
     .container {
         display: inline-block;
         cursor: pointer;
@@ -222,9 +273,21 @@ footer {
         justify-content: center;
 
     }
+}
 
+@media screen and (max-width: 720px) {
 
+    #inventory {
+        margin: 3% 0% 0% 0%;
+        width: 100%;
+    }
+}
 
+@media screen and (max-height: 958px) {
+
+    body {
+        grid-template-rows: 70px auto 100px 30px;
+    }
 }
 
 
