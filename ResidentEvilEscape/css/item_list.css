@@ -34,7 +34,6 @@ main > div {
 
 #item_list > p > img {
     margin-right: 2%;
-    margin-bottom: 5%;
     vertical-align: middle;
 }
 
@@ -42,10 +41,42 @@ div > p {
     color: #FFFFFF;
     font-family: "et_bt11bregular", Arial, sans-serif;
     font-size: 20px;
+    margin-bottom: 5%;
 }
 
 footer {
     grid-area: footer;
+}
+
+@media screen and (max-width: 1800px) {
+
+    #item_list {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    main > h1 {
+        font-size: 45px;
+        margin-top: 8%;
+    }
+
+    div > p {
+        font-size: 15px;
+        margin-bottom: 10%;
+    }
+
+    #item_list {
+        height: 95%;
+    }
+
+    #item_list > p > img {
+        height: 50px;
+        width: 90px;
+    }
+
 }
 
 @media screen and (max-height: 958px) {
