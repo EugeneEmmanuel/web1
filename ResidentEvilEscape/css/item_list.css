@@ -3,9 +3,10 @@ body {
     display: grid;
     grid-template-areas: "header"
                          "items"
+                         "items2"
                          "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 70px auto 30px;
+    grid-template-rows: 70px 120px minmax(0,1fr) 30px;
 }
 
 header {
@@ -16,12 +17,16 @@ main {
     grid-area: items;
 }
 
+main > div {
+    grid-area: items2;
+}
+
 #item_list {
     display: grid;
     grid-area: items;
     grid-template-areas: "items items";
     height: 80%;
-    margin: 8% auto auto auto;
+    margin: 3% auto auto auto;
     overflow: scroll;
     overflow-x: hidden;
     width: 90%;
@@ -29,6 +34,7 @@ main {
 
 #item_list > p > img {
     margin-right: 2%;
+    margin-bottom: 5%;
     vertical-align: middle;
 }
 
@@ -40,4 +46,12 @@ div > p {
 
 footer {
     grid-area: footer;
+}
+
+@media screen and (max-height: 958px) {
+
+
+    body {
+        grid-template-rows: 70px 120px minmax(0,1fr) 30px;
+    }
 }
