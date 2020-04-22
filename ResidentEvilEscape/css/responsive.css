@@ -152,11 +152,3 @@
     }
 }
 
-
-
-@media screen and (orientation:portrait) {
-    #warning {
-        display: block;
-    }
-}
-

@@ -169,3 +169,21 @@ footer {
         grid-template-columns: 80% 20%;
     }
 }
+
+@media screen and (orientation:portrait) and (max-width: 700px) {
+    #warning {
+        color: #FFFFFF;
+        display: block;
+        font-size: xx-large;
+        font-family: "et_bt11bregular", Arial, sans-serif;
+        margin-top: 60%;
+    }
+
+    #inventory {
+        display: none;
+    }
+
+    #button_fight {
+        display: none;
+    }
+}
