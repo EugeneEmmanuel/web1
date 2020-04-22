@@ -25,7 +25,7 @@ h1 {
 
 main > p {
     font-size: 25px;
-    margin-top: 3%;
+    margin: 3%;
     text-align: center;
 }
 
@@ -53,16 +53,47 @@ textarea {
 }
 
 .button_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_submit > button {
     border: 5px solid #017f00;
     background-color: #017f00;
     color: #FFFFFF;
     cursor: pointer;
+    display: inline-block;
     font-family: "et_bt11bregular", Arial, sans-serif;
     font-size: 25px;
-    margin-left: 47%;
     padding: 15px 25px;
 }
 
-.button_submit:hover {
+.button_submit > button:hover {
     border: 5px solid #000000;
+}
+
+@media screen and (max-width: 425px) {
+
+    body {
+        grid-template-columns: auto;
+    }
+
+    main > form > div  {
+        font-size: 15px;
+    }
+
+    main > h1 {
+        font-size: 25px;
+    }
+
+    main > p {
+        font-size: 15px;
+        margin: 3%;
+    }
+
+    .button_submit > button {
+        font-size: 15px;
+        padding: 5px 15px;
+    }
 }

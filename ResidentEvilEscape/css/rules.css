@@ -77,3 +77,61 @@ main > div > p > a:hover {
         width: 500px;
     }
 }
+
+@media screen and (max-width: 1180px) {
+
+    main > div > p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 959px) {
+    body {
+        grid-template-rows: 70px auto 100px 30px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    #rule_line1 {
+        display: block;
+    }
+
+    #spencer_mansion {
+        border: none;
+        margin: 0;
+        width: 100%;
+    }
+
+    #right_text {
+        margin: 5%;
+        text-align: center;
+    }
+
+    #rule_line2 {
+        display: block;
+    }
+
+    #left_text {
+        margin: 5%;
+        text-align: center;
+    }
+
+    #mr_x {
+        border: none;
+        margin: 0;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    main > h1 {
+        font-size: 45px;
+    }
+
+    main > div > p {
+        font-size: 13px;
+    }
+}

@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 960px) {
     body {
         grid-template-areas: "header"
         "inventory"
@@ -59,6 +59,16 @@
 
     main {
         grid-area: inventory;
+    }
+
+    main > h1 {
+        margin-top: 5%;
+    }
+
+    main > p {
+        font-size: 20px;
+        margin: 5% 5% 10%;
+        text-align: center;
     }
 
     #inventory {
@@ -111,6 +121,7 @@
         height: 90%;
     }
 
+
     footer {
         font-size: 10px;
         justify-content: center;
@@ -124,6 +135,15 @@
         margin: 3% 0% 0% 0%;
         width: 100%;
     }
+}
+
+@media screen and (max-width: 425px) {
+
+    body {
+        grid-template-columns: auto;
+    }
+
+
 }
 
 @media screen and (max-height: 930px) {
