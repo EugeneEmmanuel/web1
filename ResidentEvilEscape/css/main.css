@@ -17,7 +17,7 @@ body {
     "button_fight item"
     "footer footer";
     grid-template-columns: 68% 32%;
-    grid-template-rows: 70px auto 100px 30px;
+    grid-template-rows: 70px 80% 100px 30px;
     margin: 0;
 }
 
