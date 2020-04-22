@@ -72,11 +72,6 @@ footer {
         height: 95%;
     }
 
-    #item_list > p > img {
-        height: 50px;
-        width: 90px;
-    }
-
 }
 
 @media screen and (max-height: 958px) {
