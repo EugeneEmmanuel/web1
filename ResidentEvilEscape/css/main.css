@@ -3,10 +3,14 @@ html, body {
     width: 100%;
 }
 
-body {
+html {
     background-image: url("../img/eye_background.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
     display: grid;
     grid-template-areas: "header header"
     "inventory item"
@@ -285,9 +289,19 @@ footer {
 
 @media screen and (max-height: 958px) {
 
+
     body {
-        grid-template-rows: 70px auto 100px 30px;
+        grid-template-rows: 70px 750px 100px 30px;
     }
 }
 
+#warning {
+    display: none;
+}
+
+@media screen and (orientation:portrait) {
+    #warning {
+        display: block;
+    }
+}
 
