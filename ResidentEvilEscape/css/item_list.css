@@ -6,7 +6,7 @@ body {
                          "items2"
                          "footer";
     grid-template-columns: 100%;
-    grid-template-rows: 70px 120px minmax(0,1fr) 30px;
+    grid-template-rows: 70px 120px minmax(0, 90%) 30px;
 }
 
 header {
@@ -52,6 +52,6 @@ footer {
 
 
     body {
-        grid-template-rows: 70px 120px minmax(0,1fr) 30px;
+        grid-template-rows: 70px 120px minmax(60%, 90%) 15%;
     }
 }
