@@ -142,8 +142,6 @@
     body {
         grid-template-columns: auto;
     }
-
-
 }
 
 @media screen and (max-height: 930px) {
