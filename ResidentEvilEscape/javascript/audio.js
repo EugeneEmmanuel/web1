@@ -8,7 +8,7 @@ player.autoplay=true;
 player.addEventListener("ended", selectRandom); // Appel la fonction random quand la chanson se termine
 
 function selectRandom(){
-    while(selection === lastSong){ // Repeat until different song is selected
+    while(selection === lastSong){
         selection = Math.floor(Math.random() * playlist.length);
     }
     lastSong = selection; // Se souvenir de la dernière chanson

@@ -60,6 +60,10 @@ header > nav {
     margin-left: -204px;
 }
 
+main {
+    position: relative;
+}
+
 
 #logo_button {
     height: 52px;
@@ -81,7 +85,7 @@ main > h1  {
 }
 
 #inventory {
-    background-image: url(../img/inventory_green.gif);
+    background-image: url(../img/inventory_fine_final.gif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -89,11 +93,22 @@ main > h1  {
     display: block;
     grid-area: inventory;
     height: 90%;
-    /* margin-left: 2%; */
-    /* margin-top: 3%; */
     margin: 3% auto;
     max-height: 100%;
     width: 95%;
+}
+
+#dropInvisibleBox {
+    position: absolute;
+    width: 297px;
+    right: 49px;
+    top: 280px;
+    height: 437px;
+}
+
+main > div > img {
+    height: 24.5%;
+    width: 50%;
 }
 
 #item {
@@ -156,34 +171,68 @@ footer {
     margin: 6px;
 }
 
-@media screen and (max-width: 1775px) {
+@media screen and (max-width: 1908px) {
 
-    body {
-        grid-template-columns: 72% 28%;
+    #dropInvisibleBox{
+        width: 294px;
+        right: 49px;
+        top: 278px;
+        height: 431px;
     }
 }
+
+
+
+@media screen and (max-width: 1775px) {
+
+body {
+    grid-template-columns: 72% 28%;
+}
+}
+
 
 @media screen and (max-width: 1400px) {
 
     body {
         grid-template-columns: 80% 20%;
     }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    #dropInvisibleBox{
+        width: 179px;
+        right: 29px;
+        top: 263px;
+        height: 431px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+
+    #dropInvisibleBox{
+        width: 174px;
+        right: 29px;
+        top: 262px;
+        height: 431px;
+    }
 }
 
 @media screen and (orientation:portrait) and (max-width: 650px) {
-    #warning {
-        color: #FFFFFF;
-        display: block;
-        font-size: xx-large;
-        font-family: "et_bt11bregular", Arial, sans-serif;
-        margin-top: 60%;
-    }
+#warning {
+    color: #FFFFFF;
+    display: block;
+    font-size: xx-large;
+    font-family: "et_bt11bregular", Arial, sans-serif;
+    margin-top: 60%;
+}
 
-    #inventory {
-        display: none;
-    }
+#inventory {
+    display: none;
+}
 
-    #button_fight {
-        display: none;
-    }
+#button_fight {
+    display: none;
+}
 }

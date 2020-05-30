@@ -2,9 +2,53 @@
     #item > img {
         margin: 2%;
     }
+
+    #dropInvisibleBox{
+        width: 287px;
+        right: 49px;
+        top: 277px;
+        height: 431px;
+    }
+}
+
+@media screen and (max-width: 1840px) {
+
+    #dropInvisibleBox{
+        width: 283px;
+        right: 49px;
+        top: 277px;
+        height: 431px;
+    }
+}
+
+@media screen and (max-width: 1830px) {
+
+    #dropInvisibleBox{
+        width: 279px;
+        right: 49px;
+        top: 277px;
+        height: 431px;
+    }
+}
+
+@media screen and (max-width: 1795px) {
+
+    #dropInvisibleBox{
+        width: 276px;
+        right: 47px;
+        top: 275px;
+        height: 432px;
+    }
 }
 
 @media screen and (max-width: 1775px) {
+
+    #dropInvisibleBox {
+        width: 290px;
+        right: 47px;
+        top: 277px;
+        height: 432px;
+    }
 
     #item > img {
         margin: 0.5%;
@@ -14,6 +58,13 @@
 @media screen and (max-width: 1748px) {
     #item > img {
         margin: 0.1%;
+    }
+
+    #dropInvisibleBox {
+        width: 284px;
+        right: 47px;
+        top: 277px;
+        height: 432px;
     }
 }
 
@@ -27,22 +78,353 @@
     #item > img {
         margin: 6%;
     }
+
+    #dropInvisibleBox {
+        width: 281px;
+        right: 47px;
+        top: 277px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+
+    #dropInvisibleBox{
+        width: 277px;
+        right: 47px;
+        top: 275px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1685px) {
+
+    #dropInvisibleBox{
+        width: 272px;
+        right: 47px;
+        top: 275px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1660px) {
+
+    #dropInvisibleBox{
+        width: 271px;
+        right: 45px;
+        top: 275px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1645px) {
+
+    #dropInvisibleBox{
+        width: 269px;
+        right: 45px;
+        top: 275px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1630px) {
+
+    #dropInvisibleBox{
+        width: 264px;
+        right: 45px;
+        top: 273px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1611px) {
+
+    #dropInvisibleBox{
+        width: 261px;
+        right: 45px;
+        top: 273px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1590px) {
+
+    #dropInvisibleBox{
+        width: 257px;
+        right: 45px;
+        top: 273px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+
+    #dropInvisibleBox{
+        width: 252px;
+        right: 45px;
+        top: 273px;
+        height: 432px;
+    }
 }
 
 @media screen and (max-width: 1545px) {
     #item > img {
         margin: 4%;
     }
+
+    #dropInvisibleBox{
+        width: 251px;
+        right: 41px;
+        top: 273px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1525px) {
+
+    #dropInvisibleBox{
+        width: 249px;
+        right: 45px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+
+    #dropInvisibleBox{
+        width: 248px;
+        right: 41px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1510px) {
+
+    #dropInvisibleBox{
+        width: 245px;
+        right: 41px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1490px) {
+
+    #dropInvisibleBox{
+        width: 243px;
+        right: 39px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1462px) {
+
+    #dropInvisibleBox{
+        width: 238px;
+        right: 39px;
+        top: 270px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1445px) {
+
+    #dropInvisibleBox{
+        width: 236px;
+        right: 39px;
+        top: 269px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1416px) {
+
+    #dropInvisibleBox{
+        width: 232px;
+        right: 37px;
+        top: 269px;
+        height: 432px;
+    }
 }
 
 @media screen and (max-width: 1400px) {
+
+    #dropInvisibleBox{
+        width: 256px;
+        right: 40px;
+        top: 271px;
+        height: 432px;
+    }
 
     #item > img {
         margin: 4%;
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1380px) {
+
+    #dropInvisibleBox{
+        width: 251px;
+        right: 37px;
+        top: 269px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1345px) {
+
+    #dropInvisibleBox{
+        width: 244px;
+        right: 40px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+
+    #dropInvisibleBox{
+        width: 240px;
+        right: 40px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1315px) {
+
+    #dropInvisibleBox{
+        width: 237px;
+        right: 40px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    #dropInvisibleBox{
+        width: 233px;
+        right: 40px;
+        top: 271px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1285px) {
+
+    #dropInvisibleBox{
+        width: 230px;
+        right: 40px;
+        top: 270px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+
+    #dropInvisibleBox{
+        width: 228px;
+        right: 40px;
+        top: 270px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1255px) {
+
+    #dropInvisibleBox{
+        width: 226px;
+        right: 37px;
+        top: 268px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+
+    #dropInvisibleBox{
+        width: 225px;
+        right: 35px;
+        top: 268px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+
+    #dropInvisibleBox{
+        width: 223px;
+        right: 35px;
+        top: 268px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+
+    #dropInvisibleBox{
+        width: 219px;
+        right: 35px;
+        top: 268px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+
+    #dropInvisibleBox{
+        width: 217px;
+        right: 34px;
+        top: 267px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+
+    #dropInvisibleBox{
+        width: 213px;
+        right: 33px;
+        top: 266px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+
+    #dropInvisibleBox{
+        width: 210px;
+        right: 33px;
+        top: 266px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1135px) {
+
+    #dropInvisibleBox{
+        width: 208px;
+        right: 31px;
+        top: 265px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+
+    #dropInvisibleBox{
+        width: 204px;
+        right: 32px;
+        top: 266px;
+        height: 432px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
     body {
         grid-template-areas: "header"
         "inventory"
@@ -127,6 +509,11 @@
         justify-content: center;
 
     }
+
+    #dropInvisibleBox {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 720px) {
