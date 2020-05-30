@@ -6,4 +6,6 @@ la seule modification que j'ai fait par rapport à ma maquette est le fait que m
 
 Il va aussi ne pas y avoir d'accent sur tous les mots qui doivent en contenir puisque le font personalisé que j'ai décidé de prendre n'offre pas ces options.
 
-Mon menu hamburger n'est pas terminé puisqu'il me manque des notions en javascript.
+Le lien pour mon oral :
+
+https://web.microsoftstream.com/video/da15b418-517a-4653-9921-322a05ba9f54
